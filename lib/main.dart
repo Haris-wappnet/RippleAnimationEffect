@@ -44,8 +44,9 @@ class _MyHomePageState extends State<MyHomePage>
     );
     // _animation = Tween(begin: 0.0, end: 1.0).animate(_animationController);
 
-    _animationController.addListener(() {});
-    setState(() {});
+    _animationController.addListener(() {
+      setState(() {});
+    });
 
     _animationController.forward();
   }
